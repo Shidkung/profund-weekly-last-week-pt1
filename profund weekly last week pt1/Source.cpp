@@ -1,5 +1,5 @@
 #include <stdio.h>
-double SquareRoot(double num)
+double sqrt(double num)
 {
     double start = 0, endNum = num, temp = 0;
 
@@ -26,10 +26,10 @@ double SquareRoot(double num)
 }
 
 int main()
-{
+{   double roots = 0.0;
     double root = 0.0;
     scanf_s("%lf",&root);
-    double OrignalRoot = 0.0;
-    OrignalRoot = SquareRoot(root);
-    printf("%lf" ,OrignalRoot);
+    
+    roots = sqrt(root);
+    printf("%lf" ,roots);
 }
