@@ -29,7 +29,6 @@ int main()
 {   double roots = 0.0;
     double root = 0.0;
     scanf_s("%lf",&root);
-    
     roots = sqrt(root);
     printf("%lf" ,roots);
 }
